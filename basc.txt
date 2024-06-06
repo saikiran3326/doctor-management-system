@@ -1,0 +1,26 @@
+<!-- <script>
+//         t="sai@gmail.com";
+//         const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z]+\.[a-zA-Z]{2,}$/;
+// const isValid = emailPattern.test(t);
+// alert(isValid);
+function phonevalid(){
+    var pp1=document.getElementById("pp").value;
+if(pp1.length != 10) { 
+   alert("not 10 digits");
+   pp1.border="10px";
+} else {
+  alert("yep, its 10 digits");
+} 
+}
+// function validation(){
+//     setInterval(phonevalid, 1000);
+// }
+    </script> -->
+
+    '$disease','$doctor',
+
+    $disease=$_POST['disease'];
+$doctor=$_POST['doctor'];
+
+disease<input type="text" name="disease">
+    doctor<input type="text" name="doctor">
